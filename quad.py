@@ -1,0 +1,10 @@
+import math
+a = int(input('Enter a : '))
+b = int(input('Enter b : '))
+c = int(input('Enter c : '))
+x=b*b-(4*a*c)
+rt=math.sqrt(abs(x))
+print(x)
+rt1=(0-b+rt)/(2*a)
+rt2=(0-b-rt)/(2*a)
+print('Roots are : ',rt1,rt2)
